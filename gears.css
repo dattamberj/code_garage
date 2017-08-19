@@ -1,0 +1,72 @@
+
+body
+        {
+            background:url('bg.png') no-repeat center center fixed;
+            background-size: cover;
+			font-family: Courier New;
+			font-size: 20px;
+			color: white;
+        }
+
+table {
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+#tit {
+	margin-top: 10px;
+	margin-left: 40px;
+}
+.head {
+  font-weight: bolder;
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: underline;
+}
+form {
+	font-size: 20px;
+    display: block;
+	line-height: 35px;
+    margin-top: 0em;
+	padding: 0px;
+}
+input.p {
+
+}
+input[type="text"],[type="password"] {
+	border: 0;
+  outline: 0;
+  color: white;
+  width: 180px;
+  font-family: Courier New;
+  font-size: 20px;
+  background: transparent;
+  border-bottom: 2px solid white;
+}
+input[type="submit"] {
+	margin-top: 20px;
+	font-weight: bolder;
+background: #093332;
+padding: 8px 20px;
+border:1px solid #3e9cbf;
+cursor:pointer;
+font-size: 20px;
+font-family:Courier New, sans-serif;
+letter-spacing:.1em;
+text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); 
+color: #fff;
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #093332, 0px 10px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #093332, 0px 10px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #093332, 0px 10px 5px #999;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 20px;
+}
+input[type="submit"]:hover, input[type="submit"]:focus {
+color:#093332;
+background: white;
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #093332, 0px 2px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #093332, 0px 2px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #093332, 0px 2px 5px #999;
+}
